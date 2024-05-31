@@ -1,7 +1,7 @@
 {
   "name": "floating-form",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/floating-form.cjs",
