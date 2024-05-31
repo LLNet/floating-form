@@ -1,8 +1,17 @@
 {
   "name": "floating-form",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/floating-form.cjs",
+  "module": "./dist/floating-form.js",
+  "exports": {
+    ".": {
+      "import": "./dist/floating-form.js",
+      "require": "./dist/floating-form.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
